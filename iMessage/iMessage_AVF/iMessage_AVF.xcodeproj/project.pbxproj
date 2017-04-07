@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		915C91271E894C4E004F99A0 /* bubble_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 915C91251E894C4E004F99A0 /* bubble_left.png */; };
+		915C91281E894C4E004F99A0 /* bubble_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 915C91261E894C4E004F99A0 /* bubble_right.png */; };
 		916447CB1E87FB62007826C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 916447CA1E87FB62007826C6 /* main.m */; };
 		916447CE1E87FB62007826C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 916447CD1E87FB62007826C6 /* AppDelegate.m */; };
 		916447D11E87FB62007826C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916447D01E87FB62007826C6 /* ViewController.m */; };
-		916447D41E87FB62007826C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916447D21E87FB62007826C6 /* Main.storyboard */; };
 		916447D71E87FB62007826C6 /* iMessage_AVF.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 916447D51E87FB62007826C6 /* iMessage_AVF.xcdatamodeld */; };
 		916447D91E87FB62007826C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916447D81E87FB62007826C6 /* Assets.xcassets */; };
-		916447DC1E87FB62007826C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916447DA1E87FB62007826C6 /* LaunchScreen.storyboard */; };
+		916447E51E88044B007826C6 /* SpeechController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916447E41E88044B007826C6 /* SpeechController.m */; };
+		916447EB1E8808F7007826C6 /* BubbleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 916447EA1E8808F7007826C6 /* BubbleCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		915C91251E894C4E004F99A0 /* bubble_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble_left.png; sourceTree = "<group>"; };
+		915C91261E894C4E004F99A0 /* bubble_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble_right.png; sourceTree = "<group>"; };
 		916447C61E87FB62007826C6 /* iMessage_AVF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMessage_AVF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		916447CA1E87FB62007826C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		916447CC1E87FB62007826C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		916447CD1E87FB62007826C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		916447CF1E87FB62007826C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		916447D01E87FB62007826C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		916447D31E87FB62007826C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		916447D61E87FB62007826C6 /* iMessage_AVF.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iMessage_AVF.xcdatamodel; sourceTree = "<group>"; };
 		916447D81E87FB62007826C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		916447DB1E87FB62007826C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		916447DD1E87FB62007826C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		916447E31E88044B007826C6 /* SpeechController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechController.h; sourceTree = "<group>"; };
+		916447E41E88044B007826C6 /* SpeechController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechController.m; sourceTree = "<group>"; };
+		916447E91E8808F7007826C6 /* BubbleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleCell.h; sourceTree = "<group>"; };
+		916447EA1E8808F7007826C6 /* BubbleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,16 +66,19 @@
 		916447C81E87FB62007826C6 /* iMessage_AVF */ = {
 			isa = PBXGroup;
 			children = (
+				916447EC1E881B6F007826C6 /* Resource */,
 				916447CC1E87FB62007826C6 /* AppDelegate.h */,
 				916447CD1E87FB62007826C6 /* AppDelegate.m */,
 				916447CF1E87FB62007826C6 /* ViewController.h */,
 				916447D01E87FB62007826C6 /* ViewController.m */,
-				916447D21E87FB62007826C6 /* Main.storyboard */,
 				916447D81E87FB62007826C6 /* Assets.xcassets */,
-				916447DA1E87FB62007826C6 /* LaunchScreen.storyboard */,
 				916447DD1E87FB62007826C6 /* Info.plist */,
 				916447D51E87FB62007826C6 /* iMessage_AVF.xcdatamodeld */,
 				916447C91E87FB62007826C6 /* Supporting Files */,
+				916447E31E88044B007826C6 /* SpeechController.h */,
+				916447E41E88044B007826C6 /* SpeechController.m */,
+				916447E91E8808F7007826C6 /* BubbleCell.h */,
+				916447EA1E8808F7007826C6 /* BubbleCell.m */,
 			);
 			path = iMessage_AVF;
 			sourceTree = "<group>";
@@ -80,6 +89,15 @@
 				916447CA1E87FB62007826C6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		916447EC1E881B6F007826C6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				915C91251E894C4E004F99A0 /* bubble_left.png */,
+				915C91261E894C4E004F99A0 /* bubble_right.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,8 +131,8 @@
 				TargetAttributes = {
 					916447C51E87FB62007826C6 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = ZYXUDW4PDN;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = M6EDV6DS4E;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -141,9 +159,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				916447DC1E87FB62007826C6 /* LaunchScreen.storyboard in Resources */,
+				915C91271E894C4E004F99A0 /* bubble_left.png in Resources */,
+				915C91281E894C4E004F99A0 /* bubble_right.png in Resources */,
 				916447D91E87FB62007826C6 /* Assets.xcassets in Resources */,
-				916447D41E87FB62007826C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,32 +173,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				916447D11E87FB62007826C6 /* ViewController.m in Sources */,
+				916447EB1E8808F7007826C6 /* BubbleCell.m in Sources */,
 				916447CE1E87FB62007826C6 /* AppDelegate.m in Sources */,
+				916447E51E88044B007826C6 /* SpeechController.m in Sources */,
 				916447CB1E87FB62007826C6 /* main.m in Sources */,
 				916447D71E87FB62007826C6 /* iMessage_AVF.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		916447D21E87FB62007826C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				916447D31E87FB62007826C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		916447DA1E87FB62007826C6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				916447DB1E87FB62007826C6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		916447DE1E87FB62007826C6 /* Debug */ = {
@@ -204,7 +205,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: hui li (7G573CMVD8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: hui li (7G573CMVD8)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -223,11 +225,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -252,7 +255,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: hui li (7G573CMVD8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: hui li (7G573CMVD8)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -265,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -277,11 +281,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZYXUDW4PDN;
+				DEVELOPMENT_TEAM = M6EDV6DS4E;
 				INFOPLIST_FILE = iMessage_AVF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cvc.iMessage-AVF";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cd2a5075-af21-4053-9960-aff1b7cb03f8";
+				PROVISIONING_PROFILE_SPECIFIER = millionaire;
 			};
 			name = Debug;
 		};
@@ -289,11 +295,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZYXUDW4PDN;
+				DEVELOPMENT_TEAM = M6EDV6DS4E;
 				INFOPLIST_FILE = iMessage_AVF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cvc.iMessage-AVF";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cd2a5075-af21-4053-9960-aff1b7cb03f8";
+				PROVISIONING_PROFILE_SPECIFIER = millionaire;
 			};
 			name = Release;
 		};
@@ -316,6 +324,7 @@
 				916447E21E87FB62007826C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

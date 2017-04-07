@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVBase.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource>
 
 
 @end
